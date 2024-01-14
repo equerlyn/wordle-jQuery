@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.start{
+    margin-left: 105px;
+}
+
+.tombol{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.tombol button{
+    padding: 3px 14px;
+    border-radius: 3px;
+    border: none;
+}
+
+.start{
+    background-color: rgb(68, 255, 47);
+}
+
+.restart{
+    background-color: red;
+}
+
+.cheat{
+    background-color: rgb(216, 204, 35);
+}
+
+.kiri{
+    float: left;
+    width: 37%;
+}
+
+.kanan{
+    display: flex;
+    justify-content:left;
+}
+
+.kotak{
+    width: 380px;
+    height: 460px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 15px 15px 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(61, 61, 61);
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    /* border-radius: 5px;
+    border: 1px white solid; */
+}
+
+.front{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px white solid;
+    backface-visibility: hidden;
+}
+
+.back{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px white solid;
+    backface-visibility: hidden;
+}
+
+.aktif{
+    border: 3p white solid;
+}
+
+.tulisan{
+    color:white;
+    font-weight: bold;
+    padding-top: 8px;
+    font-size:35px;
+    text-align:center;
+}
